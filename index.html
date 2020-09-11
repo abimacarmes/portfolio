@@ -1,35 +1,91 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>abimacarmes</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel= "stylesheet" type = "text/css"/>
+  </head>
 
-<title>My Favorite Pizza</title>
+  <!-- Header contains the title, my username from github and links to the articles.-->
+  <header>
+    <h1>
+      My Portfolio
+    </h1>
+    <h3>
+      abimacarmes
+    </h3>
+    <nav>
+      <!-- Links to the individual sections. -->
+      <a href="introduction">Introduction</a>
+      <a href ="about">About Me</a>
+      <a href="contact">Contact Me</a>
+    </nav>
+  </header>
+  
+  <!-- Body of the code contains the main sections and some articles.-->
+  <body>
+    <main>
+      <!-- Introduction Section-->
+      <article id="introduction">
+        <h2>
+          Introduction
+        </h2>
+        <p> My name is Abigail and from Toronto, Canada. </p>
+        <hr>
+      </article>
+      
+      <!-- About Me Section -->
+      <article id="about">
+        <h2>
+          About Me
+        </h2>
+        <p>
+          I've always been interested in web development but never had the guts to go for it until now! My first coding experience was with a singular course in university and I loved the process and that it felt like an intersting puzzle.
+          <br><br>
+          When I started working, I tried to apply as many of my skills as possible to automate my tasks and loved doing that as well. I love helping out my team by fixing any of their problems and keeping manual work to a minimum.
+          <br><br>
+          I found Bloc when I was researching crash courses and it appealed to me because I could fit it into pockets of time throughout my days and whenever I need to on a weekend. If I have a soccer game or want to go out for dinner, I can fit in my coding in these pockets while still being able to enjoy hobbies!
+        </p>
+        <hr>
+        
+        <!-- Lists of hobbies for a personal touch with a photo.-->
+        <p>
+          In whatever spare time I can find, and when we aren't in the middle of a pandemic, some of my hobbies include:
+        </p>
+        <ul>
+          <li>Traveling</li>
+          <li>Photography</li>
+          <li>Soccer</li>
+          <li>Dogsitting any puppy I can get my hands on!</li>
+        </ul>
+        <p>
+          For example, the photo I took while traveling in a remote part of Japan:
+        </p>
+        <img src="images/foggyMountainsJapan.jpg" width="100%" alt="Photo of foggy mountains in Japan.">
+        <hr>
+      </article>
+    </main>
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
+    <!-- Footer with contact links.-->
+    <footer>
+      <!-- Contact Me Section-->
+      <article id="contact">
+        <h2>
+          Contact Me
+        </h2>
+        <p>
+          If you want to get in touch, feel free to reach out through the below: 
+        </p>
+        <ol>
+          <li><a rel="LinkedIn" href="https://www.linkedin.com/in/abigail-mackenzie-armes-46aa54116/">LinkedIn Profile</a></li>
+          <li><a rel="Github" href = "https://github.com/abimacarmes">GitHub Profile</a></li>
+        </ol>
+      </article>
+      <!-- Temporary disclaimer.-->
+      <p class="disclaimer">This website is a work in progress as I continue to learn. Thank you for your patience and understanding.</p>
+    </footer>
 
-<link href="style.css" rel="stylesheet" type="text/css" />
-
-</head>
-
-<body>
-
-<!-- WEB PAGE CONTENT HERE -->
-
-<div class="pageContainer">
-  <div class="imageContainer"> 
-    <img src="images/pizza.jpg" alt="Pizza with pepperoni and cheese." /> 
-  </div>
-  <div class="textContainer">
-    <h1>Pizza!</h1>
-    <p>My Favorite Toppings: </p>
-    <ul>
-      <li>Pepperoni</li>
-      <li>Mozzarella Cheese</li>
-      <li>Mushrooms</li>
-    </ul>
-  </div>
-</div>
-
-</body>
+  </body>
 </html>
-
-
