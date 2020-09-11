@@ -9,6 +9,7 @@ header{
   color: #ffffff;
   text-align: right;
   padding: 3%;
+  height: 20px;
 }
 
 /*Header link styling*/
@@ -28,6 +29,7 @@ a:active{
 /*Header other styling*/
 h3{
   color: #ffffff;
+  font-size: 15px
 }
 
 /*Body styling*/
