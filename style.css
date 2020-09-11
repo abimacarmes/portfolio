@@ -31,6 +31,10 @@ h3{
 }
 
 /*Body styling*/
+main{
+  width: 50%;
+  margin: auto;
+}
 h2{
   color: #3c6e71;
 }
