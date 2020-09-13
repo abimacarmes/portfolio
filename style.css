@@ -13,30 +13,26 @@ header{
 }
 
 /*Header link styling*/
-a:link{
-  color: #D9D9D9;
-}
-a:visited{
+a:link, a:visited, a:active{
   color: #D9D9D9;
 }
 a:hover{
   color: #284b63;
 }
-a:active{
-  color: #D9D9D9;
-}
+
 
 /*Header other styling*/
 h3{
-  color: #284b63;
-  font-size: 15px
+  color: #D9D9D9;
+  font-size: 15px;
 }
 
 /*Body styling*/
 main{
-  width: 50%;
+  width: 95%;
   margin: auto;
 }
+
 h2{
   color: #3c6e71;
 }
@@ -47,10 +43,6 @@ p, li{
 
 li{
   margin: 5px;
-}
-
-body{
-  padding: 3%;
 }
 
 .disclaimer{
@@ -64,8 +56,44 @@ footer{
   background-color: #3C6E71;
   padding: 3%;
 }
-footer p,h2{
+footer p,footer h2{
   color: white;
+}
+
+/*Formatting for smaller screens first*/
+.group{
+  flex-direction: column;
+  display: flex;
+  padding:3%;
+}
+
+.item{
+  flex: 1;
+  padding: 1%;
+}
+
+.item img{
+  width: 100%;
+}
+
+.second-color{
+  background-color: #D9D9D9;
+}
+
+.double-item{
+  flex: 2;
+}
+
+/*Formatting for larger screens*/
+@media all and (min-width:600px){
+  .group{
+  flex-direction: row;
+  }
+
+  main{
+    margin: auto;
+    width: 65%;
+  }
 }
 
 

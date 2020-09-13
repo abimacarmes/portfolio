@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>abimacarmes</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel= "stylesheet" type = "text/css"/>
@@ -10,17 +10,14 @@
   <body>
   <!-- Header contains the title, my username from github and links to the articles.-->
   <header>
-    <h1>
-      My Portfolio
-    </h1>
-    <h3>
-      abimacarmes
-    </h3>
+    <h1>My Portfolio</h1>
+    <h3>abimacarmes</h3>
     <nav>
       <!-- Links to the individual sections. -->
       <a href="introduction">Introduction</a>
       <a href ="about">About Me</a>
       <a href="contact">Contact Me</a>
+      <a href="projects">Projects</a>
     </nav>
   </header>
   
@@ -29,43 +26,75 @@
     <main>
       <!-- Introduction Section-->
       <article id="introduction">
-        <h2>
-          Introduction
-        </h2>
-        <p> My name is Abigail and from Toronto, Canada. </p>
-        <hr>
+          <div class = "group">
+            <div class = "item">
+              <h2>Introduction</h2>
+              <p> My name is Abigail and from Toronto, Canada. I'm looking at expanding my skillset and adding web development for my future career progression.</p>
+            </div>
+          </div>
       </article>
+      
       
       <!-- About Me Section -->
       <article id="about">
-        <h2>
-          About Me
-        </h2>
-        <p>
-          I've always been interested in web development but never had the guts to go for it until now! My first coding experience was with a singular course in university and I loved the process and that it felt like an intersting puzzle.
+        <div class = "group">
+        <div class = "item second-color">
+          <h2>About Me</h2>
+          <p>
+            I've always been interested in web development but never had the guts to go for it until now! My first coding experience was with a singular course in university and I loved the process and that it felt like an intersting puzzle.
           <br><br>
-          When I started working, I tried to apply as many of my skills as possible to automate my tasks and loved doing that as well. I love helping out my team by fixing any of their problems and keeping manual work to a minimum.
+            When I started working, I tried to apply as many of my skills as possible to automate my tasks and loved doing that as well. I love helping out my team by fixing any of their problems and keeping manual work to a minimum.
           <br><br>
-          I found Bloc when I was researching crash courses and it appealed to me because I could fit it into pockets of time throughout my days and whenever I need to on a weekend. If I have a soccer game or want to go out for dinner, I can fit in my coding in these pockets while still being able to enjoy hobbies!
-        </p>
-        <hr>
-        
+            I found Bloc when I was researching crash courses and it appealed to me because I could fit it into pockets of time throughout my days and whenever I need to on a weekend. If I have a soccer game or want to go out for dinner, I can fit in my coding in these pockets while still being able to enjoy hobbies!
+          <br><br>
+            I'm still learning and trying to figure out what I'd like to be doing with myself in the future. Currently, I think I'm leaning towards back-end development and will continue to update as I narrow my scope.
+          </p>
+        </div>
+        </div>
+
+
         <!-- Lists of hobbies for a personal touch with a photo.-->
-        <p>
-          In whatever spare time I can find, and when we aren't in the middle of a pandemic, some of my hobbies include:
-        </p>
-        <ul>
-          <li>Traveling</li>
-          <li>Photography</li>
-          <li>Soccer</li>
-          <li>Dogsitting any puppy I can get my hands on!</li>
-        </ul>
-        <p>
-          For example, the photo I took while traveling in a remote part of Japan:
-        </p>
-        <img src="images/foggyMountainsJapan.jpg" width="600" alt="Photo of foggy mountains in Japan.">
-        <hr>
+        <div class = "group">
+          <div class = "item">
+            <h2> Outside the Flexbox</h2>
+            <p>
+              In whatever spare time I can find, and when we aren't in the middle of a pandemic, some of my hobbies include:
+            </p>
+            <ul>
+              <li>Traveling</li>
+              <li>Photography</li>
+              <li>Soccer</li>
+              <li>Dogsitting any puppy I can get my hands on!</li>
+            </ul>
+          </div>
+          <div class = "double-item">
+            <p>
+              For example, the photo I took while traveling in a remote part of Japan:
+            </p>
+            <img src="images/foggyMountainsJapan.jpg" width="600" alt="Photo of foggy mountains in Japan.">
+          </div>
+        </div>
       </article>
+
+      <article  id="projects">
+        <div class = "group">
+          <div class = "item second-color">
+            <h2>Projects (TBD)</h2>
+            <h3>Project Title</h3>
+            <p>
+            Description that explains what the app does, who it's for, why you built it.
+            <br>
+            Skills used (what is the stack)
+            <br>
+            Screenshot that presents the app appropriately - may be a placeholder - the actual image does not really matter.
+            <br>
+            Link to the GitHub repo of the project
+            <br>
+            Link to live, working app
+            </p>
+          </div>
+        </div>
+      </article>  
     </main>
     
 
