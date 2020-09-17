@@ -41,10 +41,6 @@ p, li{
   color: #353535;
 }
 
-li{
-  margin: 5px;
-}
-
 .disclaimer{
   font-style: italic;
   color: #ffffff;
@@ -55,9 +51,14 @@ li{
 footer{
   background-color: #3C6E71;
   padding: 3%;
+  width: 95%
 }
 footer p,footer h2{
   color: white;
+}
+
+footer ol{
+  list-style: none;
 }
 
 /*Formatting for smaller screens first*/
@@ -69,10 +70,12 @@ footer p,footer h2{
 
 .item{
   flex: 1;
-  padding: 1%;
+  padding-bottom: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
 }
 
-.item img{
+.item img,.double-item img{
   width: 100%;
 }
 
@@ -82,6 +85,16 @@ footer p,footer h2{
 
 .double-item{
   flex: 2;
+}
+
+form label, form input{
+  color: white;
+  display: block;
+}
+form input, form textarea{
+  width: 35%;
+  border-radius: 6px;
+  border: 0px;
 }
 
 /*Formatting for larger screens*/
