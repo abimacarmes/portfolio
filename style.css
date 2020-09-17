@@ -87,15 +87,33 @@ footer ol{
   flex: 2;
 }
 
+form button{
+  display: inline;
+  border-radius: 6px;
+  color: #284b63;
+  border:0px;
+}
+
 form label, form input{
   color: white;
   display: block;
 }
+
+form hr{
+  border: 1px solid #3c6e71
+}
+
 form input, form textarea{
   width: 35%;
   border-radius: 6px;
   border: 0px;
-  color: #3C6E71;
+  color: #284b63;
+  font-size: 14px;
+  height: 25px;
+}
+
+form textarea{
+  height: 50px;
 }
 
 /*Formatting for larger screens*/
