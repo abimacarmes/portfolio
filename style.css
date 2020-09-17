@@ -104,7 +104,7 @@ form hr{
 }
 
 form input, form textarea{
-  width: 35%;
+  width: 100%;
   border-radius: 6px;
   border: 0px;
   color: #284b63;
@@ -126,6 +126,9 @@ form textarea{
     margin: auto;
     width: 65%;
   }
+  form input, form textarea{
+  width: 35%;
+}
 }
 
 
